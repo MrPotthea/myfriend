@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agdasima:wght@400;700&family=Permanent+Marker&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agdasima:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Permanent+Marker&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agdasima:wght@400;700&family=Fasthand&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik+Mono+One&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agdasima:wght@400;700&family=Chenla&family=Fasthand&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik+Mono+One&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agdasima:wght@400;700&family=Chenla&family=Fasthand&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik+Mono+One&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agdasima:wght@400;700&family=Bayon&family=Chenla&family=Fasthand&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik+Mono+One&family=Sixtyfour+Convergence&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo>h3{
+    color: rgb(250, 248, 248);
+    font-family: "Permanent Marker", cursive;
+}
+.name{
+    font-family: "Josefin Sans", sans-serif;
+}
+.tp{
+    font-family: "Fasthand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn-show{
+    background-color: aqua;
+    padding: 10px;
+    width: 40%;
+    font-family: "Fasthand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.f-t{
+    font-family: "Fasthand", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+.card{
+    background-color:rgb(230, 226, 226);
+    border: none;
+}
+.card a{
+    text-decoration: none;
+}
+.card img{
+  border-radius: 20px;
+}
+.card-text{
+    font-family: "Kantumruy Pro", sans-serif;
+}
+.bg1{
+    background-color: rgb(184, 179, 179);
+}
+.more{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    margin-left: 39%;
+}
+.more a{
+   color: white;
+}
+.tm{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tm img{
+   width: 120px;
+   border-radius: 50%;
+}
+.btm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(54, 52, 52, 0.5);
+}
+.btm h1{
+color: white;
+font-family: "Bayon", sans-serif;
+
+}
+.footer-me h3 {
+    color: rgb(250, 248, 248);
+    font-family: "Permanent Marker", cursive;
+}
+.footer-me {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-me h1 {
+    font-size: 60px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bolder;
+    color: rgb(94, 89, 89);
+}
+.footer-me a i {
+    color: yellow;
+    background-color: rgb(201, 201, 197);
+}
+.troll{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+#aboutme{
+    display: none;
+}
